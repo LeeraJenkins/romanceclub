@@ -1,0 +1,136 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Romance club</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Кодировка страницы -->
+		<meta charset="UTF-8">
+		<!-- Иконка -->
+		<link rel="shortcut icon" href="img/favicon.ico"
+		<!-- Адаптив -->
+		<meta name="viewport" content="width=device-width">
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<!-- Оболочка (grid-контейнер) -->
+	    <div class="wrapper">
+			<!-- Шапка (grid - элемент) -->
+            <header class="header">
+			  <img src="img/logo.png" alt="" class="header__logo">
+			  <div class="header__burger">
+				<span></span>
+			</div>
+			  <nav class="header__menu">
+				  <ul class="header__list">
+					  <li><a href="" class="header__link">Your interactive stories</a></li>
+					  <li><a href="" class="header__link">Клуб Романтики</a></li>
+					  <li><a href="" class="header__link">Вакансии</a></li>
+					  <li><a href="" class="header__link">Контакты</a></li>
+				  </ul>
+			  </nav>
+		    </header>
+			<!-- Контент (grid-элемент + grid-контейнер) -->
+            <main class="main">
+				<!-- Сайдбар (grid-элемент) -->
+                <aside class="sidebar">
+					<div class="sidebar__burger">
+						<span>Истории</span>
+					</div>
+					<nav class="sidebar__menu">
+						<ul class="sidebar__list">
+							<li><a href="" class="sidebar__link">Паруса в тумане</a></li>
+							<li><a href="" class="sidebar__link">Рождённая луной</a></li>
+							<li><a href="" class="sidebar__link">Королева за 30 дней</a></li>
+							<li><a href="" class="sidebar__link">Моя голливудская история</a></li>
+							<li><a href="" class="sidebar__link">Тени Сентфора</a></li>
+							<li><a href="" class="sidebar__link">Высокий прибой</a></li>
+							<li><a href="" class="sidebar__link">В ритме страсти</a></li>
+							<li><a href="" class="sidebar__link">Секрет небес</a></li>
+							<li><a href="" class="sidebar__link">Я охочусь на тебя</a></li>
+							<li><a href="" class="sidebar__link">Легенда ивы</a></li>
+							<li><a href="" class="sidebar__link">Дракула.История любви</a></li>
+							<li><a href="" class="sidebar__link">Любовь со звёзд</a></li>
+							<li><a href="" class="sidebar__link">Путь валькирии</a></li>
+							<li><a href="" class="sidebar__link">10 желаний Софи</a></li>
+							<li><a href="" class="sidebar__link">Ярость Титанов</a></li>
+						</ul>
+					</nav>
+				</aside>
+				<!-- Контент (grid-элемент) -->
+				<section class="content">
+					<h1>Клуб Романтики</h1>
+					<section class="content__gallery gallery">
+						<h2 class="gallery__title">Катсцены</h2>
+						<div class="gallery__items">
+							<div class="gallery__item gallery__item_big">
+								<img src="img/1.jpg" alt="">
+							</div>
+							<div class="gallery__item">
+								<img src="img/2.jpg" alt="">
+							</div>
+							<div class="gallery__item">
+								<img src="img/3.jpg" alt="">
+							</div>
+							<div class="gallery__item">
+								<img src="img/4.jpg" alt="">
+							</div>
+							<div class="gallery__item">
+								<img src="img/5.jpg" alt="">
+							</div>
+							<div class="gallery__item">
+								<img src="img/6.jpg" alt="">
+							</div>
+							<div class="gallery__item">
+								<img src="img/7.jpg" alt="">
+							</div>
+							<div class="gallery__item gallery__item_big">
+								<img src="img/8.jpg" alt="">
+							</div>
+							<div class="gallery__item">
+								<img src="img/9.jpg" alt="">
+							</div>
+							<div class="gallery__item">
+								<img src="img/10.jpg" alt="">
+							</div>
+							<div class="gallery__item">
+								<img src="img/11.jpg" alt="">
+							</div>
+						</div>
+					</section>
+					<section class="content__posters posters">
+						<h2 class="posters__title">Ссылки</h2>
+						<div class="posters__items">
+							<div class="posters__item">
+								<div class="posters__image">
+									<img src="../HW8(GRID)/img/logo.png" alt="">
+								</div>
+								<div class="posters__name">iPhone/iPad</div>
+								<a href="https://apps.apple.com/us/app/id1300588558" class="posters__about">Скачать</a>
+							</div>
+							<div class="posters__item">
+								<div class="posters__image">
+									<img src="../HW8(GRID)/img/logo.png" alt="">
+								</div>
+								<div class="posters__name">Android</div>
+								<a href="https://play.google.com/store/apps/details?id=com.yourstoryinteractive.sails.pirate.adventure" class="posters__about">Скачать</a>
+							</div>
+						</div>
+					</section>
+				</section>
+			</main>
+			<footer class="footer">
+				<div class="footer__copy">Copy, 2021</div>
+				<div class="footer__text">YSI</div>
+			</footer>
+	    </div>
+		<!-- Подключаем jQuery -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+		<!-- Подключаем файл JS скриптов -->
+		<script src="js/script.js"></script>
+	</body>
+</html>
